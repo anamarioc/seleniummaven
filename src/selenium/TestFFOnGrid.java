@@ -19,7 +19,7 @@ import org.openqa.selenium.remote.*;
 public class TestFFOnGrid {
 	@Test
 	public static void main() throws MalformedURLException {
-		System.setProperty("webdriver.chrome.driver","https://github.com/Ferreiracn/seleniummaven/tree/master/lib");
+		System.setProperty("webdriver.chrome.driver","https://github.com/Ferreiracn/seleniummaven");
 		DesiredCapabilities cap=  DesiredCapabilities.chrome();
 		cap.setPlatform(Platform.WIN10);
 		cap.setBrowserName("chrome");
